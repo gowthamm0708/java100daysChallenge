@@ -1,0 +1,13 @@
+
+
+public class hello {
+   int sum (int a ,int b){
+       int c = a*b;
+       return c;
+   }
+    public static void main(String[] args) {
+     hello multi = new hello();
+     int d = multi.sum(10,5);
+     System.out.println(d);
+    }
+}
