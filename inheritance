@@ -1,0 +1,16 @@
+package gowtham;
+class dad{
+	int money = 100000 ;
+}
+class son extends dad{
+    
+}
+public class inheritance {
+
+	public static void main(String[] args) {
+		son l1 = new son();
+	
+		System.out.println(l1.money);
+	}
+
+}
