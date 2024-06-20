@@ -1,0 +1,30 @@
+package gowtham;
+import java.util.*;
+class animal{
+	void eat(){
+		System.out.println("hello");
+	}
+	
+}
+class dog extends animal{
+	void bark(){
+		System.out.println("gowtham");
+	}
+}
+
+class puppy extends dog{
+	void weep(){
+		System.out.println("mom");
+	}
+}
+
+public class multiinhertance {
+
+	public static void main(String[] args) {
+	
+      puppy obj = new puppy();
+       obj.eat();
+
+	}
+
+}
